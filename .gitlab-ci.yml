@@ -1,0 +1,7 @@
+stages:
+  - test
+
+test:
+  script:
+    - pip freeze
+    - tox -e py38
